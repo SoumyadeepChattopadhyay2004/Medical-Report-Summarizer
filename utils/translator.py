@@ -129,7 +129,7 @@ class Translator:
         """
         ui_texts = {
             "en": {
-                "app_title": "Medical Report Summarizer",
+                "app_title": "Health-Guardian: Medical Report Summarizer",
                 "upload_report": "Upload Medical Report",
                 "analyze": "Analyze Report",
                 "summary": "Summary",
