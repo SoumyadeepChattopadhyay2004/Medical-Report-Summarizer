@@ -51,7 +51,7 @@ class Config:
     SESSION_TIMEOUT = 3600  # 1 hour in seconds
     
     # UI Configuration
-    APP_TITLE = "*Health-Guardian*: Medical Report Summarizer"
+    APP_TITLE = "Medical Report Summarizer"
     APP_ICON = "🏥"
     PAGE_LAYOUT = "wide"
     
