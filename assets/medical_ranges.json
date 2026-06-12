@@ -1,0 +1,332 @@
+{
+  "blood_tests": {
+    "hemoglobin": {
+      "male": {
+        "min": 13.5,
+        "max": 17.5,
+        "unit": "g/dL"
+      },
+      "female": {
+        "min": 12.0,
+        "max": 15.5,
+        "unit": "g/dL"
+      }
+    },
+    "wbc": {
+      "min": 4000,
+      "max": 11000,
+      "unit": "cells/mcL"
+    },
+    "rbc": {
+      "male": {
+        "min": 4.5,
+        "max": 5.9,
+        "unit": "million cells/mcL"
+      },
+      "female": {
+        "min": 4.0,
+        "max": 5.2,
+        "unit": "million cells/mcL"
+      }
+    },
+    "platelets": {
+      "min": 150000,
+      "max": 450000,
+      "unit": "cells/mcL"
+    },
+    "hematocrit": {
+      "male": {
+        "min": 40,
+        "max": 54,
+        "unit": "%"
+      },
+      "female": {
+        "min": 36,
+        "max": 48,
+        "unit": "%"
+      }
+    },
+    "mcv": {
+      "min": 80,
+      "max": 100,
+      "unit": "fL"
+    },
+    "mch": {
+      "min": 27,
+      "max": 33,
+      "unit": "pg"
+    },
+    "mchc": {
+      "min": 32,
+      "max": 36,
+      "unit": "g/dL"
+    }
+  },
+  "diabetes_markers": {
+    "glucose_fasting": {
+      "min": 70,
+      "max": 100,
+      "unit": "mg/dL"
+    },
+    "glucose_random": {
+      "min": 70,
+      "max": 140,
+      "unit": "mg/dL"
+    },
+    "glucose_postprandial": {
+      "min": 70,
+      "max": 140,
+      "unit": "mg/dL"
+    },
+    "hba1c": {
+      "min": 4.0,
+      "max": 5.6,
+      "unit": "%"
+    }
+  },
+  "lipid_profile": {
+    "cholesterol_total": {
+      "max": 200,
+      "unit": "mg/dL"
+    },
+    "hdl": {
+      "male": {
+        "min": 40,
+        "unit": "mg/dL"
+      },
+      "female": {
+        "min": 50,
+        "unit": "mg/dL"
+      }
+    },
+    "ldl": {
+      "max": 100,
+      "unit": "mg/dL"
+    },
+    "vldl": {
+      "max": 30,
+      "unit": "mg/dL"
+    },
+    "triglycerides": {
+      "max": 150,
+      "unit": "mg/dL"
+    },
+    "cholesterol_hdl_ratio": {
+      "max": 5.0,
+      "unit": "ratio"
+    }
+  },
+  "liver_function": {
+    "sgpt": {
+      "male": {
+        "min": 7,
+        "max": 56,
+        "unit": "U/L"
+      },
+      "female": {
+        "min": 7,
+        "max": 45,
+        "unit": "U/L"
+      }
+    },
+    "sgot": {
+      "male": {
+        "min": 10,
+        "max": 40,
+        "unit": "U/L"
+      },
+      "female": {
+        "min": 9,
+        "max": 32,
+        "unit": "U/L"
+      }
+    },
+    "alp": {
+      "min": 44,
+      "max": 147,
+      "unit": "U/L"
+    },
+    "bilirubin_total": {
+      "min": 0.3,
+      "max": 1.2,
+      "unit": "mg/dL"
+    },
+    "bilirubin_direct": {
+      "max": 0.3,
+      "unit": "mg/dL"
+    },
+    "bilirubin_indirect": {
+      "max": 0.9,
+      "unit": "mg/dL"
+    },
+    "albumin": {
+      "min": 3.5,
+      "max": 5.5,
+      "unit": "g/dL"
+    },
+    "protein_total": {
+      "min": 6.0,
+      "max": 8.3,
+      "unit": "g/dL"
+    },
+    "ggt": {
+      "male": {
+        "min": 8,
+        "max": 61,
+        "unit": "U/L"
+      },
+      "female": {
+        "min": 5,
+        "max": 36,
+        "unit": "U/L"
+      }
+    }
+  },
+  "kidney_function": {
+    "creatinine": {
+      "male": {
+        "min": 0.7,
+        "max": 1.3,
+        "unit": "mg/dL"
+      },
+      "female": {
+        "min": 0.6,
+        "max": 1.1,
+        "unit": "mg/dL"
+      }
+    },
+    "urea": {
+      "min": 7,
+      "max": 20,
+      "unit": "mg/dL"
+    },
+    "bun": {
+      "min": 7,
+      "max": 20,
+      "unit": "mg/dL"
+    },
+    "uric_acid": {
+      "male": {
+        "min": 3.4,
+        "max": 7.0,
+        "unit": "mg/dL"
+      },
+      "female": {
+        "min": 2.4,
+        "max": 6.0,
+        "unit": "mg/dL"
+      }
+    },
+    "egfr": {
+      "min": 90,
+      "unit": "mL/min/1.73m²"
+    }
+  },
+  "thyroid_function": {
+    "tsh": {
+      "min": 0.4,
+      "max": 4.0,
+      "unit": "mIU/L"
+    },
+    "t3": {
+      "min": 80,
+      "max": 200,
+      "unit": "ng/dL"
+    },
+    "t4": {
+      "min": 4.5,
+      "max": 12.0,
+      "unit": "mcg/dL"
+    },
+    "free_t3": {
+      "min": 2.3,
+      "max": 4.2,
+      "unit": "pg/mL"
+    },
+    "free_t4": {
+      "min": 0.8,
+      "max": 1.8,
+      "unit": "ng/dL"
+    }
+  },
+  "electrolytes": {
+    "sodium": {
+      "min": 136,
+      "max": 145,
+      "unit": "mEq/L"
+    },
+    "potassium": {
+      "min": 3.5,
+      "max": 5.0,
+      "unit": "mEq/L"
+    },
+    "chloride": {
+      "min": 98,
+      "max": 107,
+      "unit": "mEq/L"
+    },
+    "calcium": {
+      "min": 8.5,
+      "max": 10.5,
+      "unit": "mg/dL"
+    },
+    "magnesium": {
+      "min": 1.7,
+      "max": 2.2,
+      "unit": "mg/dL"
+    },
+    "phosphorus": {
+      "min": 2.5,
+      "max": 4.5,
+      "unit": "mg/dL"
+    }
+  },
+  "vitamins": {
+    "vitamin_d": {
+      "min": 30,
+      "max": 100,
+      "unit": "ng/mL"
+    },
+    "vitamin_b12": {
+      "min": 200,
+      "max": 900,
+      "unit": "pg/mL"
+    },
+    "folate": {
+      "min": 2.7,
+      "max": 17.0,
+      "unit": "ng/mL"
+    }
+  },
+  "iron_studies": {
+    "iron": {
+      "male": {
+        "min": 65,
+        "max": 175,
+        "unit": "mcg/dL"
+      },
+      "female": {
+        "min": 50,
+        "max": 170,
+        "unit": "mcg/dL"
+      }
+    },
+    "tibc": {
+      "min": 250,
+      "max": 450,
+      "unit": "mcg/dL"
+    },
+    "ferritin": {
+      "male": {
+        "min": 24,
+        "max": 336,
+        "unit": "ng/mL"
+      },
+      "female": {
+        "min": 11,
+        "max": 307,
+        "unit": "ng/mL"
+      }
+    }
+  }
+}
