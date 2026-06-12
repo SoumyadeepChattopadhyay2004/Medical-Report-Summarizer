@@ -1,5 +1,5 @@
 """
-Medical Report Summarizer - Main Application
+Health Guardian: Medical Report Summarizer - Main Application
 A comprehensive AI-powered medical report analysis tool
 """
 
