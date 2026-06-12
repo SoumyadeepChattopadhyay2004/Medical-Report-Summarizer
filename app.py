@@ -121,7 +121,7 @@ def initialize_session_state():
 def create_sidebar():
     """Create sidebar navigation"""
     with st.sidebar:
-        st.markdown(f"<h2 style='color: #1E88E5;'>{Config.APP_ICON} Medical Report Summarizer</h2>", unsafe_allow_html=True)
+        st.markdown(f"<h2 style='color: #1E88E5;'>{Config.APP_ICON} Health-Guardian: Medical Report Summarizer</h2>", unsafe_allow_html=True)
         st.markdown("---")
         
         # Language selector
